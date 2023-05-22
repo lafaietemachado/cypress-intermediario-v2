@@ -4,7 +4,9 @@
   "description": "Teste Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "cy:open": "npx cypress open",
+    "cy:test": "npx cypress run",
+    "test": "npx cypress run"
   },
   "author": "Lafaiete Machado",
   "license": "MIT",
